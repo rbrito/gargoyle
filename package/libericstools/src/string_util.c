@@ -550,7 +550,7 @@ dyn_read_t dynamic_read(FILE* open_file, char* terminators, int num_terminators,
 	dyn_read_t ret_value;
 
 	fgetpos(open_file, &start_pos);
-	
+
 	while(terminator_found == 0)
 	{
 		int nextch = fgetc(open_file);
