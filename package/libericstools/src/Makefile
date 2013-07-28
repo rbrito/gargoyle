@@ -20,7 +20,7 @@ endif
 
 
 CFLAGS:=$(CFLAGS) -Os
-WARNING_FLAGS=-Wall -Wstrict-prototypes -pedantic
+WARNING_FLAGS=-Wall -Wextra -Wstrict-prototypes -pedantic
 MINIMAL_WARNING_FLAGS=-Wall -Wstrict-prototypes
 
 OS=$(shell uname)
